@@ -1,0 +1,38 @@
+.contact {
+    margin: 30px auto 0;
+
+    .number {
+        font-size: 20px;
+        color: black;
+        text-align: center;
+
+        @media (max-width: 400px) {
+            font-size: 14px;
+        }
+    }
+
+    .box {
+        margin-bottom: 20px;
+
+        h1 {
+            font-size: 30px;
+            font-weight: bold;
+            text-align: center;
+
+            @media (max-width: 400px) {
+                font-size: 14px;
+            }
+        }
+
+        img {
+            max-width: 400px;
+            mix-blend-mode: multiply;
+            border-radius: 50%;
+            cursor: pointer;
+
+            @media (max-width: 400px) {
+                width: 250px;
+            }
+        }
+    }
+}
